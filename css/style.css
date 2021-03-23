@@ -1,0 +1,19 @@
+@import url('components/index.css');
+
+/* branding */
+:root {
+  --primary-color: white;
+  --font-color: black;
+}
+/* :dark-mode {
+  --primary-color: black;
+  --font-color: white; 
+} */
+
+/* default settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts */
