@@ -1,0 +1,35 @@
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card {
+    width: 90%;
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+.project-screenshot {
+  width: 95%;
+  display: block;
+  margin: auto;
+  border: .5px solid lightgrey;
+}
+
+.project-card p {
+  margin: 5%;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.stack-icon {
+    width: 60px;
+    height: 60px;
+}
