@@ -5,7 +5,9 @@
   --primary-color: white;
   --font-color: black;
 }
-/* :dark-mode {
+
+/* 
+  :dark-mode {
   --primary-color: black;
   --font-color: white; 
 } */

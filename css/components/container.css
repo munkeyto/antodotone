@@ -1,3 +1,18 @@
-.container-page {
-  margin: 0 10%;
+#page-top {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+#work {
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+#contact {
+  height: 100vh;
+  background-color: lightgray;
+}
+
+h1, h2 {
+  text-align: center;
 }
