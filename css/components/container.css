@@ -1,6 +1,7 @@
 #hero {
   height: 100vh;
-  background-color: lightblue;
+  background: linear-gradient(180deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
+  ;
 }
 
 #hero-content {
@@ -8,9 +9,9 @@
 }
 
 #work {
+  background-color: #F0F0FF;
 }
 
 #contact {
-  height: 100vh;
-  background-color: lightgray;
+  background: linear-gradient(0deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
 }
