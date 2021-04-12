@@ -1,6 +1,10 @@
-#page-top {
+#hero {
   height: 100vh;
   background-color: lightblue;
+}
+
+#hero-content {
+  padding-top: 5rem;
 }
 
 #work {
