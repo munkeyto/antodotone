@@ -15,7 +15,6 @@ p {
   font-family: var(--font-paragraph);
 }
 
-.margin-top-zero {
-  margin-top: 0;
-  padding-top: 1rem;
+.center-text {
+  text-align: center;
 }
