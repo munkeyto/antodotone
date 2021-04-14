@@ -17,3 +17,10 @@
   color: white;
   padding-top: 15rem;
 }
+
+@media (min-width: 768px) {
+  #hero-content {
+    padding-top: 10rem;
+    padding-bottom: 22rem;
+  }
+}
