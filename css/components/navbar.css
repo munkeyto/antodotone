@@ -6,6 +6,7 @@
 }
 
 .brand-title {
+    font-family: var(--font-header);
     font-size: 1.5rem;
     margin: .5rem;
 }
@@ -14,6 +15,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: var(--font-paragraph);
 }
 
 .navbar-links li { 

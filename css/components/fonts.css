@@ -11,6 +11,10 @@ h2 {
   font-size: 2rem;
 }
 
+p {
+  font-family: var(--font-paragraph);
+}
+
 .margin-top-zero {
   margin-top: 0;
   padding-top: 3rem;
