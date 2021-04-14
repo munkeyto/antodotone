@@ -24,3 +24,9 @@
     padding-bottom: 22rem;
   }
 }
+
+@media (min-width: 1024px) {
+#hero-content {
+    padding-bottom: 45rem;
+  }
+}

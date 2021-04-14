@@ -11,8 +11,9 @@ h2 {
   font-size: 2rem;
 }
 
-.sub-header-padding-top {
+.sub-header {
   padding-top: 1rem;
+  font-size: 2.5rem;
 }
 
 p {
@@ -21,4 +22,10 @@ p {
 
 .center-text {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .sub-header {
+    margin-bottom: 0;
+  }
 }

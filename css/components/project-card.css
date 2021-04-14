@@ -8,7 +8,7 @@
     width: 90%;
     border: 4px solid black;
     background-color: white;
-    box-shadow: 12px 8px 0 1px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 0 1px rgba(0, 0, 0, 1);
     margin-bottom: 2rem;
     border-radius: 8px;
 }
@@ -41,8 +41,26 @@
 }
 
 @media (min-width: 768px) {
+
+  .projects-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 45%;
+    margin: 1rem;
+  }
+
+  .project-screenshot {
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: .5px solid lightgrey;
+  }
   .project-card p {
-    margin: 1rem 1rem 2rem 1rem;
-    font-size: 1.3rem;
+    margin: 1rem;
+    font-size: 1.1rem;
   }
 }
