@@ -1,18 +1,17 @@
+/* style sheets and font imports */
 @import url('components/index.css');
 
-/* branding */
-:root {
-  --primary-color: white;
-  --font-color: black;
-}
-
-/* 
-  :dark-mode {
-  --primary-color: black;
-  --font-color: white; 
-} */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 /* default settings */
+:root {
+  --font-header: 'Fugaz One', cursive;
+  /* --font-header: 'Righteous', cursive; */
+  --font-paragraph: 'Fredoka One', cursive;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -23,4 +22,4 @@ body {
   background-color: #F0F0FF;
 }
 
-/* fonts */
+/* default font */
