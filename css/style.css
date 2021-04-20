@@ -20,4 +20,6 @@ body {
   background-color: #F0F0FF;
 }
 
-/* default font */
+:media-queries {
+  --ipad: 769px;
+}

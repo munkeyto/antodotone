@@ -5,3 +5,9 @@
   margin: auto;
   border: 8px solid white;
 }
+
+@media (max-width: 1024px) {
+  .profile-pic {
+    width: 22rem;
+  }
+}

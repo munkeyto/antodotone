@@ -29,3 +29,20 @@ p {
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: auto;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  } 
+  
+  .sub-header {
+    padding-top: 1rem;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+}
