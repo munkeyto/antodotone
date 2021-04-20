@@ -82,7 +82,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.brand-title {
     font-size: 2rem;
 	}
@@ -92,7 +92,7 @@
 	}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.brand-title {
     font-size: 3rem;
 		margin-left: 2%;

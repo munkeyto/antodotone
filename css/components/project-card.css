@@ -42,7 +42,6 @@
 
 @media (min-width: 768px) {
   .projects-wrapper {
-    display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
@@ -80,5 +79,34 @@
   .stack-icon {
     width: 90px;
     height: 90px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects-wrapper {
+    margin-top: 10rem;
+  }
+  
+  .project-card {
+    width: 30%;
+  }
+  .project-card h3 {
+
+  }
+  
+  .project-screenshot {
+
+  }
+  
+  .project-card p {
+
+  }
+  
+  .stack {
+
+  }
+  
+  .stack-icon {
+
   }
 }
