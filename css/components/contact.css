@@ -1,11 +1,7 @@
-.contact-p {
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
-}
-
 .contact-links {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 	padding-bottom: 5rem;
 }
 .contact-links i {
@@ -14,4 +10,8 @@
 
 .margin-right {
 	margin-right: 5rem;
+}
+
+@media (min-width: 768px) {
+  
 }
