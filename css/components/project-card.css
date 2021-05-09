@@ -113,4 +113,9 @@
   .project-card {
     width: 30%;
   }
+ 
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
 }
