@@ -26,6 +26,9 @@
 }
 
 @media (min-width: 1440px) {
+  #hero-content {
+    padding-top: 6rem;
+  }
   #work {
     height: 100vh;
   }
