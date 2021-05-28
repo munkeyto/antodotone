@@ -1,3 +1,35 @@
-.container-page {
-  margin: 0 10%;
+#hero {
+  background: linear-gradient(180deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
+  color: white;
+}
+
+#hero-content {
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+}
+
+#work {
+  background-color: #F0F0FF;
+}
+
+#contact {
+  background: linear-gradient(0deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
+  color: white;
+  padding-top: 15rem;
+}
+
+@media (min-width: 768px) {
+  #hero-content {
+    padding-top: 10rem;
+    padding-bottom: 22rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #hero-content {
+    padding-top: 6rem;
+  }
+  #work {
+    height: 100vh;
+  }
 }

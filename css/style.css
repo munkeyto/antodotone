@@ -1,19 +1,26 @@
+/* style sheets and font imports */
 @import url('components/index.css');
 
-/* branding */
-:root {
-  --primary-color: white;
-  --font-color: black;
-}
-/* :dark-mode {
-  --primary-color: black;
-  --font-color: white; 
-} */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');
 
 /* default settings */
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --font-header: 'Fugaz One', cursive;
+  --font-paragraph: 'Heebo', sans-serif;
 }
 
-/* fonts */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0FF;
+}
+
+:media-queries {
+  --ipad: 769px;
+}

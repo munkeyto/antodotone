@@ -1,0 +1,121 @@
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card {
+    width: 90%;
+    border: 4px solid black;
+    background-color: white;
+    box-shadow: 8px 8px 0 1px rgba(0, 0, 0, 1);
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+.project-card h3 {
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+
+.project-screenshot {
+  width: 95%;
+  display: block;
+  margin: auto;
+  border: .5px solid lightgrey;
+}
+
+.project-card p {
+  margin: 5%;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.stack-icon {
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+  .projects-wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 45%;
+    margin: 1rem;
+  }
+
+  .project-screenshot {
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: .5px solid lightgrey;
+  }
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 45%;
+    margin: 1rem;
+  }
+
+  .project-screenshot {
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: .5px solid lightgrey;
+  }
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-card {
+    margin-bottom: 2rem;
+  }
+  .project-card h3 {
+    font-size: 2.5rem;
+  }
+  
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .stack-icon {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects-wrapper {
+    margin-top: 3rem;
+  }
+  
+  .project-card {
+    width: 30%;
+  }
+ 
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}
