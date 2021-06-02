@@ -1,9 +1,10 @@
 #hero {
-  background: linear-gradient(180deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
+  background: rgba(145,70,255,1);
   color: white;
 }
 
 #hero-content {
+  display: flex;
   padding-top: 5rem;
   padding-bottom: 15rem;
 }
