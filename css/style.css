@@ -1,5 +1,5 @@
 /* style sheets and font imports */
-@import url('components/index.css');
+@import url('sections/index.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');

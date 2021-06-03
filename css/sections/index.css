@@ -1,0 +1,22 @@
+@import url('contact.css');
+@import url('hero-section.css');
+@import url('fonts.css');
+@import url('footer.css');
+@import url('navbar.css');
+@import url('project-card.css');
+
+
+
+
+/* move to corret setcions lateer */
+
+#work {
+  background-color: #F0F0FF;
+}
+
+#contact {
+  background: linear-gradient(0deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
+  color: white;
+  padding-top: 15rem;
+} 
+

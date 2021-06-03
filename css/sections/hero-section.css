@@ -5,14 +5,9 @@
 
 #hero-container {
   display: flex;
-  /* padding-top: 5rem;
-  padding-bottom: 15rem; */
-}
-
-#hero-container {
-  display: flex;
   height: 90vh;
 }
+
 #hero-image {
   flex: .75;
   display: inherit;
@@ -37,26 +32,16 @@
   border: 8px solid white;
 }
 
-@media (min-width: 1024px) {
-  .profile-pic {
-    width: 22rem;
-  }
-}
-
-#work {
-  background-color: #F0F0FF;
-}
-
-#contact {
-  background: linear-gradient(0deg, rgba(145,70,255,1) 50%, rgba(240,240,255,1) 100%);
-  color: white;
-  padding-top: 15rem;
-}
-
 @media (min-width: 768px) {
   #hero-content {
     padding-top: 10rem;
     padding-bottom: 22rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-pic {
+    width: 22rem;
   }
 }
 
