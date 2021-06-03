@@ -9,17 +9,24 @@
   padding-bottom: 15rem; */
 }
 
-.hero-container {
+#hero-container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
 }
-.hero-image {
-  flex: .5;
+#hero-image {
+  flex: .75;
   display: inherit;
 }
+
 .hero-content {
   flex: 1;
+  margin-top: 8rem;
+}
+.hero-content h1 {
+  font-size: 4rem;
+}
+.hero-content h2 {
+  font-size: 3rem;
 }
 
 .profile-pic {

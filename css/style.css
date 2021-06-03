@@ -2,7 +2,6 @@
 @import url('components/index.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');
 
 /* default settings */
@@ -11,8 +10,12 @@
   --font-paragraph: 'Heebo', sans-serif;
 }
 
-* {
+html {
+  font-size: 100%;
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -20,7 +23,9 @@ body {
   padding: 0;
   background-color: #F0F0FF;
 }
-
-:media-queries {
-  --ipad: 769px;
+body h1, body h2, body h3 {
+  font-family: var(--font-header);
+}
+body p {
+  font-family: var(--font-paragraph);
 }
