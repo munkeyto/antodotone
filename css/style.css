@@ -29,3 +29,9 @@ body h1, body h2, body h3 {
 body p {
   font-family: var(--font-paragraph);
 }
+
+.sub-header {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2.5rem;
+}

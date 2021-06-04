@@ -1,3 +1,4 @@
+@import url('about-section.css');
 @import url('contact.css');
 @import url('hero-section.css');
 @import url('fonts.css');
@@ -5,10 +6,7 @@
 @import url('navbar.css');
 @import url('project-card.css');
 
-
-
-
-/* move to corret setcions lateer */
+/* move to corret sections later */
 
 #work {
   background-color: #F0F0FF;
