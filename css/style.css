@@ -1,6 +1,5 @@
 /* style sheets and font imports */
 @import url('sections/index.css');
-
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&display=swap');
 
@@ -28,6 +27,15 @@ body h1, body h2, body h3 {
 }
 body p {
   font-family: var(--font-paragraph);
+}
+
+section {
+  height: 100vh;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
 }
 
 .sub-header {
