@@ -3,50 +3,23 @@
   color: white;
   height: 90vh;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#hero-image {
-  flex: .75;
-  display: inherit;
-}
-
-.hero-content {
-  flex: 1;
-  margin-top: 8rem;
-}
-.hero-content h1 {
+#hero-content h1 {
   font-size: 4rem;
 }
-.hero-content h2 {
+
+#hero-content h2 {
   font-size: 3rem;
   text-align: left;
 }
 
-.profile-pic {
+#profile-pic {
   border-radius: 50%;
-  width: 15rem;
-  margin: auto;
   border: 8px solid white;
-}
-
-@media (min-width: 768px) {
-  #hero-content {
-    padding-top: 10rem;
-    padding-bottom: 22rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .profile-pic {
-    width: 22rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  #hero-content {
-    padding-top: 6rem;
-  }
-  #work {
-    height: 100vh;
-  }
+  height: 25rem;
+  width: auto;
+  margin-left: 25%;
 }
